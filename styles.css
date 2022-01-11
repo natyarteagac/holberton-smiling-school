@@ -1,0 +1,44 @@
+:root {
+  --hover-opacity: 0.9;
+
+  --purple-middle: #C271FF;
+  --color-white: white;
+
+  --text-weight-regular: 400;
+  --text-weight-semi-bold: 600;
+  --text-weight-bold: 700;
+  --font-family: 'Source Sans Pro', sans-serif;
+  --text-style-normal: normal;
+  --text-size-small: 12px;
+
+}
+
+.header-container {
+  background: url('./images/pic_1.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 100vw;
+  height: 100vh;
+}
+.header-container .image-logo .smile-school {
+  width: 120px;
+  height: 30px;
+}
+.header-container .image-logo .smile-face {
+  margin-right: 10px;
+  width: 35px;
+  height: 30px;
+}
+.header-container .container ul {
+  list-style-type: none;
+  float: right;
+}
+.header-container .container ul li a {
+  color: var(--color-white);
+  text-decoration: none;
+  font-family: var(--font-family);
+  font-weight: var(--text-weight-bold);
+  font-size: var(--text-size-small);
+  text-transform: uppercase;
+  margin-left: 50px;
+}
