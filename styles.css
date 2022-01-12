@@ -149,3 +149,42 @@
     padding: 0;
   }
 }
+
+/*CAROUSEL SECTION*/
+.carousel {
+  background-color: var(--purple-middle);
+}
+.carousel .image-container img {
+  width: 150px;
+  height: 150px;
+}
+.carousel .rows-carousel {
+  width: 25px;
+  height: 40px;
+}
+.carousel .text-container-carousel .quote-text {
+  font-family: var(--font-family);
+  font-style: 400;
+  font-weight: normal;
+  color: var(--color-white);
+  font-size: 22px;
+  line-height: 34px;
+}
+.carousel .text-container-carousel .quote-name {
+  font-family: var(--font-family);
+  font-weight: var(--text-weight-bold);
+  color: var(--color-white);
+  font-size: 22px;
+  line-height: 34px;
+}
+.carousel .text-container-carousel .quote-job {
+  font-family: var(--font-family);
+  font-style: italic;
+  font-size: 22px;
+  line-height: 34px;
+  color: var(--color-white);
+  margin-top: -22px;
+}
+.carousel .text-container-carousel .cards-all-container {
+  width: 4rem;
+}
