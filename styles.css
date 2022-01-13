@@ -208,7 +208,56 @@
 
 /* Popular videos section */
 
+body > section > div.container.most-popular-text > p {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+}
+body > section > div.container.most-popular-text > p strong {
+  color: var(--purple-middle);
+}
+
 .videos-section .card-body img {
   width: 30px;
   height: 30px;
+}
+.videos-section .stars-container img {
+  width: 15px;
+  height: 15px;
+}
+.videos-section .card-body p {
+  color: var(--purple-middle);
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 27px;
+}
+.videos-section .card-body .card-text {
+  color: #071629;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+.videos-section .card-body h6 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.videos-section .card .card-img-overlay {
+  width: 100px;
+  height: 100px;
+}
+.carousel span img {
+  width: 30px;
+  height: 60px;
+}
+
+#carouselExampleControls > button.carousel-control-prev > span.carousel-control-prev-icon > img {
+  margin-right: 80px;
 }
