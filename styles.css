@@ -205,3 +205,10 @@
     height: 225px;
   }
 }
+
+/* Popular videos section */
+
+.videos-section .card-body img {
+  width: 30px;
+  height: 30px;
+}
