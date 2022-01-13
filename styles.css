@@ -258,6 +258,85 @@ body > section > div.container.most-popular-text > p strong {
   height: 60px;
 }
 
-#carouselExampleControls > button.carousel-control-prev > span.carousel-control-prev-icon > img {
-  margin-right: 80px;
+/* Free membership section */
+
+.free-membership-section {
+  background-color: #071629;
+}
+.free-membership-section .membership-container p {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  color: var(--color-white);
+  margin-top: 67px;
+  margin-bottom: 67px;
+}
+.free-membership-section .membership-container p strong {
+  color: var(--purple-middle);
+}
+.free-membership-section img {
+  width: 45px;
+  height: 36px;
+  margin-bottom: 30px;
+}
+.free-membership-section .col-3 h5 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 26px;
+}
+.free-membership-section .col-3 p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 26px;
+  width: 215px;
+  height: 52px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 14px;
+}
+.free-membership-section button {
+  background-color: var(--purple-middle);
+  width: 162px;
+  height: 44px;
+  border-radius: 22px;
+  text-transform: uppercase;
+  color: var(--color-white);
+  font-family: var(--font-family);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  border: var(--purple-middle);
+  margin-top: 76px;
+  margin-bottom: 53px;
+}
+@media screen and (max-width: 768px) and (min-width: 576px) {
+  .free-membership-section .membership-container p {
+    margin-bottom: 60px;
+  }
+  .free-membership-section img {
+    margin-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .free-membership-section .col-12 p {
+    margin-bottom: 50px;
+  }
+  .free-membership-section button {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .free-membership-section .col-12 p {
+    width: 212px;
+    height: 52px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+  }
+  .free-membership-section button {
+    margin-top: 10px;
+  }
 }
