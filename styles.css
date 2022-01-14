@@ -400,3 +400,20 @@ body > header > nav > div > div:nth-child(2) > h1 {
     height: 30px;
   }
 }
+
+
+/*PRICES SECTION*/
+.table button {
+  background-color: var(--purple-middle);
+  width: 162px;
+  height: 44px;
+  border-radius: 22px;
+  text-transform: uppercase;
+  color: var(--color-white);
+  font-family: var(--font-family);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  border: var(--purple-middle);
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+}
