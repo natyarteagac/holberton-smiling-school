@@ -56,6 +56,10 @@
   font-size: 16px;
   text-transform: uppercase;
 }
+body > header > nav > nav > div > div.container.nav-search.d-sm-flex.justify-content-center.text-center > ul li a:hover {
+  color: var(--purple-middle);
+  border-bottom: 2px solid var(--color-white);
+}
 .header-container .text-container .ul-content-text:first-child {
   margin-right: 30px;
 }
@@ -96,9 +100,9 @@
   color: var(--color-white);
   margin-top: 3px;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
   body > header > nav > nav > div > div.container.nav-search {
-    display: none;
+    display: none !important;
   }
     label {
     left: 0;
@@ -116,10 +120,10 @@
   }
   label div:first-child {
     margin-top: 5px;
-    width: 18px;
+    width: 20px;
   }
   label div:nth-child(2) {
-    width: 12px;
+    width: 13px;
   }
   label div:last-child {
     width: 18px;
@@ -147,6 +151,11 @@
     flex-direction: column;
     justify-content: center;
     padding: 0;
+  }
+  body > header > nav > nav > div > div.container.image-logo.d-flex.justify-content-center.text-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -188,7 +197,7 @@
 .carousel .text-container-carousel .cards-all-container {
   width: 4rem;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .carousel .all-card-carousel {
     display: flex;
     align-items: center;
@@ -312,7 +321,10 @@ body > section > div.container.most-popular-text > p strong {
   margin-top: 76px;
   margin-bottom: 53px;
 }
-@media screen and (max-width: 768px) and (min-width: 576px) {
+.free-membership-section button:hover {
+  opacity: var(--hover-opacity);
+}
+@media screen and (max-width: 768px) and (min-width: 577px) {
   .free-membership-section .membership-container p {
     margin-bottom: 60px;
   }
@@ -338,5 +350,53 @@ body > section > div.container.most-popular-text > p strong {
   }
   .free-membership-section button {
     margin-top: 10px;
+  }
+}
+
+/* PRICING SITE */
+
+/* HEADER */
+
+
+.pricing-header-container .smile-face-tag p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+}
+
+body > header > nav > div > div.container.smile-face-tag > p > img:nth-child(1) {
+  width: 37px;
+  height:30px;
+}
+body > header > nav > div > div.container.smile-face-tag > p > img:nth-child(2) {
+  width: 190px;
+  height: 60px;
+}
+.pricing-header-container {
+  margin-top: 202px;
+}
+.pricing-header-container .smile-face-tag {
+  margin-bottom: 99px;
+}
+body > header > nav > div > div:nth-child(2) > h1 {
+  margin-bottom: 77px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
+  line-height: 75px;
+}
+@media screen and (max-width: 576px) {
+  .pricing-header-container .smile-face-tag p {
+    font-size: 24px;
+  }
+  body > header > nav > div > div.container.smile-face-tag > p > img:nth-child(1) {
+    width: 30px;
+    height: 24px;
+  }
+  body > header > nav > div > div.container.smile-face-tag > p > img:nth-child(2) {
+    width: 100px;
+    height: 30px;
   }
 }
