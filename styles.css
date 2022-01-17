@@ -353,6 +353,47 @@ body > section > div.container.most-popular-text > p strong {
   }
 }
 
+/* FOOTER */
+
+.footer {
+    height: 249px;
+    background-color: #071629;
+}
+
+.copyright {
+    font-size: 12px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    Line-height: 15px;
+    margin-top: 74px;
+    margin-bottom: 40px;
+    color: #FFFFFF;
+    margin-bottom: 5px !important;
+}
+.footbar-sm {
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.copyright-sm {
+    font-size: 12px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    Line-height: 15px;
+    margin-top: 45px;
+    margin-bottom: 34px;
+    color: #FFFFFF;
+}
+
+.nav-icon-1 {
+    height: 30px;
+}
+
+.nav-icon-2 {
+    height: 30px;
+}
+
+
 /* PRICING SITE */
 
 /* HEADER */
@@ -380,12 +421,12 @@ body > header > nav > div > div.container.smile-face-tag > p > img:nth-child(2) 
   margin-bottom: 99px;
 }
 body > header > nav > div > div:nth-child(2) > h1 {
-  margin-bottom: 77px;
   font-family: var(--font-family);
   font-weight: 700;
   font-style: normal;
   font-size: 60px;
   line-height: 75px;
+  margin-bottom: 20px;
 }
 @media screen and (max-width: 576px) {
   .pricing-header-container .smile-face-tag p {
@@ -403,7 +444,12 @@ body > header > nav > div > div:nth-child(2) > h1 {
 
 
 /*PRICES SECTION*/
-.table button {
+
+.table-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+.buttons-container button {
   background-color: var(--purple-middle);
   width: 162px;
   height: 44px;
@@ -416,4 +462,56 @@ body > header > nav > div > div:nth-child(2) > h1 {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 30px;
+}
+.buttons-container button {
+  opacity: var(--hover-opacity);
+  cursor: pointer;
+}
+body > header > nav > div.table-container.d-flex.justify-content-center.mt-lg-5 > table > tbody > tr:nth-child(5) > td.text-paragraph.align-middle > img {
+  width: 88px;
+  height: 35px;
+  margin-bottom: 4px;
+}
+.table .combined-shape {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 28px;
+  height: 28px;
+}
+.table .text-paragraph {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  margin: auto 0 auto 0;
+  justify-content: center;
+  color: #F2F2F2 !important;
+}
+.buttons-container .button-container h1 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 44px;
+  line-height: 55px;
+}
+.buttons-container .button-container p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 15px;
+  margin: auto 0 auto 0;
+  justify-content: center;
+  color: #F2F2F2;
+}
+.table thead th {
+  font-family: var(--font-family);
+  font-style: 12px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+}
+.buttons-container {
+  margin-right: 20px;
 }
