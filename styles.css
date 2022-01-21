@@ -11,6 +11,7 @@
   --text-style-normal: normal;
   --text-size-small: 12px;
   --text-size-big: 120px;
+  --coiny-font-family: 'Coiny', cursive;
 }
 
 .header-container {
@@ -517,7 +518,7 @@ body > header > nav > div.table-container.d-flex.justify-content-center.mt-lg-5 
 }
 
 
-/* Courses Search Filter */
+/* COURSES SECTION */
 
 .div-search-filter {
     background-color: #C271FF;
@@ -584,4 +585,125 @@ body > header > nav > div.table-container.d-flex.justify-content-center.mt-lg-5 
     pointer-events: none;
     color: #FFFFFF;
     margin-top: 3px;
+}
+
+body > header > nav > div.d-flex.flex-column.justify-content-center.pricing-header-container > div > p {
+  font-size: 32px;
+  font-family: var(--coiny-font-family);
+  font-weight: 400;
+  color: white;
+  width: 486px;
+  height: 88px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -12rem;
+}
+body > header > nav > div.d-flex.flex-column.justify-content-center.pricing-header-container > div > p strong {
+  color: #C271FF;
+}
+
+body > section > div.container.most-popular-text > p {
+  font-weight: normal;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+}
+body > section > div.container.most-popular-text > p strong {
+  color: var(--purple-middle);
+}
+
+/*Videos section*/
+
+.all-videos-section .card-body img {
+  width: 30px;
+  height: 30px;
+}
+.videos-section .stars-container img {
+  width: 15px;
+  height: 15px;
+}
+.videos-section .card-body p {
+  color: var(--purple-middle);
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 27px;
+}
+.videos-section .card-body .card-text {
+  color: #071629;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+.videos-section .card-body h6 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.videos-section .card .card-img-overlay {
+  width: 100px;
+  height: 100px;
+}
+.carousel span img {
+  width: 30px;
+  height: 60px;
+}
+
+/*FOOTER*/
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #071629;
+  max-width: 100vw;
+  align-content: flex-end;
+}
+.footer-icons {
+  margin-top: 70px;
+}
+.footer-icons .icon-logo .smile-img {
+  width: 37px;
+  height: 30px;
+  margin-left: 100px;
+}
+.footer-icons .icon-logo .smile-logo {
+  width: 114px;
+  height: 20px;
+}
+.footer .footer-icons .social-network-icons img {
+  width: 30px;
+  height: 30px;
+}
+.footer .footer-icons .social-network-icons a:last-child {
+  margin-right: 150px;
+}
+.footer .footer-icons .social-network-icons a:nth-child(2) {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.footer .paragraph p {
+  color: #FFFFFF;
+  font-family: var(--font-family-base);
+  font-size: 12px;
+  font-weight: var(--font-weight-regular);
+  opacity: 36%;
+}
+@media screen and (max-width: 568px) {
+  .footer-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-icons .icon-logo .smile-img {
+    margin-left:  40px;
+    margin-bottom: 20px;
+  }
+  .footer-icons .social-network-icons a:first-child {
+    margin-top: 20px;
+    margin-left: 147px;
+  }
 }
